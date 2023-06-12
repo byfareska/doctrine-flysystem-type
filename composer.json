@@ -1,0 +1,20 @@
+{
+  "name": "byfareska/doctrine-flysystem-type",
+  "type": "library",
+  "license": "Propertary",
+  "autoload": {
+    "psr-4": {
+      "Byfareska\\DoctrineFlysystemType\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Karol Szarafinowski",
+      "email": "karol@szarafinowski.pl"
+    }
+  ],
+  "require": {
+    "league/flysystem-bundle": "^3.1",
+    "doctrine/dbal": "^3.0"
+  }
+}
