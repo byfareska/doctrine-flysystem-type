@@ -21,7 +21,7 @@ final class FlysystemFileType extends Type
 
     public function convertToPHPValue($value, AbstractPlatform $platform): File
     {
-        return new File($value);
+        return new File((string)$value);
     }
 
     public function convertToDatabaseValue($value, AbstractPlatform $platform): ?string
