@@ -9,7 +9,7 @@ final class FlysystemFileType extends Type
 {
     public const NAME = 'flysystem_file';
 
-    public function getSQLDeclaration(array $column, AbstractPlatform $platform)
+    public function getSQLDeclaration(array $column, AbstractPlatform $platform): string
     {
         return $platform->getStringTypeDeclarationSQL($column);
     }
